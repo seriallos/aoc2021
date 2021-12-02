@@ -1,9 +1,6 @@
 import _ from 'lodash';
 
-import { getInput } from '../util.js';
-
-async function main() {
-  const input = await getInput(import.meta.url);
+function solve(input) {
   const measurements = _.map(input, i => parseInt(i, 10));
 
   let largerThanPrev = 0;
@@ -47,4 +44,4 @@ async function main() {
   console.log(`Part 2: Number of measurement windows larger than previous: ${windowLargerThanPrev}`);
 }
 
-main();
+export default solve;
