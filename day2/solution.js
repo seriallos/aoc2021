@@ -56,8 +56,7 @@ function solve(input) {
   }
 
   const part2Result = depth * hPos;
-  console.log(`Part 1: ${part2Result} (${hPos} * ${depth})`);
-
+  console.log(`Part 2: ${part2Result} (${hPos} * ${depth})`);
 }
 
 export default solve;
