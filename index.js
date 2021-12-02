@@ -1,3 +1,4 @@
+/* eslint-env node */
 import { performance } from 'perf_hooks';
 
 import _ from 'lodash';

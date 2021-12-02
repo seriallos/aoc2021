@@ -1,6 +1,9 @@
+/* eslint-env node */
+// eslint-disable-next-line no-unused-vars
 import _ from 'lodash';
 
-const solve(input) {
+// eslint-disable-next-line no-unused-vars
+function solve(input) {
   // const inputInts = _.map(input, i => parseInt(i, 10));
 }
 
